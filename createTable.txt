@@ -1,0 +1,13 @@
+CREATE TABLE IF NOT EXISTS users
+(
+    id UUID,
+    created_at DateTime('UTC'),
+    updated_at DateTime('UTC'),
+    first_name String,
+    last_name String,
+    middle_name String,
+    birthday Date,
+    email String,
+    city String
+)
+ORDER BY id
